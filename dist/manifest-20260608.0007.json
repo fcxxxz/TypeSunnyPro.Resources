@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "manifest_version": "20260608.0007",
+  "generated_at": "2026-06-07T16:07:50.685Z",
+  "packages": [
+    {
+      "id": "articles",
+      "name": "本地文章",
+      "version": "20260608.0007",
+      "size": 9750427,
+      "sha256": "1af15e2e5fbcb870e89633b153a66df4e360393eb9e79eeb0a5b7cf697ee9569",
+      "min_app_version": "20260607.0000",
+      "install_target": "articles",
+      "entry": "articles",
+      "urls": [
+        "https://gitee.com/fuchuxuan/typesunnypro-resources/releases/download/v20260608.0007/articles-20260608.0007.zip",
+        "https://github.com/fcxxxz/TypeSunnyPro.Resources/releases/download/v20260608.0007/articles-20260608.0007.zip"
+      ]
+    },
+    {
+      "id": "trainer-articles",
+      "name": "练单器",
+      "version": "20260608.0007",
+      "size": 79001,
+      "sha256": "7c0ab477d88d579f71726e7b3bec3334a8f75d77f6837a66e1dc62e183d428d7",
+      "min_app_version": "20260607.0000",
+      "install_target": "trainer-articles",
+      "entry": "trainer-articles",
+      "urls": [
+        "https://gitee.com/fuchuxuan/typesunnypro-resources/releases/download/v20260608.0007/trainer-articles-20260608.0007.zip",
+        "https://github.com/fcxxxz/TypeSunnyPro.Resources/releases/download/v20260608.0007/trainer-articles-20260608.0007.zip"
+      ]
+    },
+    {
+      "id": "shuang",
+      "name": "晴双拼",
+      "version": "20260608.0007",
+      "size": 4961860,
+      "sha256": "91b280e8098cd07cb55352e43597264cebd9cae0e9e0ab2e45e1e6ac144f4283",
+      "min_app_version": "20260607.0000",
+      "install_target": "shuang",
+      "entry": "shuang",
+      "urls": [
+        "https://gitee.com/fuchuxuan/typesunnypro-resources/releases/download/v20260608.0007/shuang-20260608.0007.zip",
+        "https://github.com/fcxxxz/TypeSunnyPro.Resources/releases/download/v20260608.0007/shuang-20260608.0007.zip"
+      ]
+    },
+    {
+      "id": "ziti-basic",
+      "name": "字提基础包",
+      "version": "20260608.0007",
+      "size": 2285961,
+      "sha256": "d161551c23e9286eed3af8b0047e095d814a5242899935de60132f124459a1c5",
+      "min_app_version": "20260607.0000",
+      "install_target": "ziti-basic",
+      "entry": "ziti-basic",
+      "urls": [
+        "https://gitee.com/fuchuxuan/typesunnypro-resources/releases/download/v20260608.0007/ziti-basic-20260608.0007.zip",
+        "https://github.com/fcxxxz/TypeSunnyPro.Resources/releases/download/v20260608.0007/ziti-basic-20260608.0007.zip"
+      ]
+    },
+    {
+      "id": "citi-basic",
+      "name": "词提基础包",
+      "version": "20260608.0007",
+      "size": 5696484,
+      "sha256": "16de56b54c233b7c2ffbc90d52df487eedddd8473cbd30e1ad0ea411eddbc47b",
+      "min_app_version": "20260607.0000",
+      "install_target": "citi-basic",
+      "entry": "citi-basic",
+      "urls": [
+        "https://gitee.com/fuchuxuan/typesunnypro-resources/releases/download/v20260608.0007/citi-basic-20260608.0007.zip",
+        "https://github.com/fcxxxz/TypeSunnyPro.Resources/releases/download/v20260608.0007/citi-basic-20260608.0007.zip"
+      ]
+    }
+  ]
+}
