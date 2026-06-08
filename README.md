@@ -1,5 +1,32 @@
 # TypeSunnyPro.Resources
 
-Resource packages for TypeSunnyPro.
+这是晴跟打 Pro 的独立资源包仓库。主程序保持轻量安装，首次使用相关功能时再按需下载这里发布的资源包。
 
-This repository is generated and maintained separately from the app repository.
+## 资源包说明
+
+| 包 ID | 中文名 | 安装位置 | 用途 |
+| --- | --- | --- | --- |
+| `articles` | 本地文章 | `文章` | 内置本地跟打文章。用户自己放进 `文章` 目录的 `.txt` 不会被资源包更新删除。 |
+| `trainer-articles` | 练单器 | `练单器` | 练单器默认词表和分段练习文本。用户自己放进 `练单器` 目录的 `.txt` 不会被资源包更新删除。 |
+| `shuang` | 晴双拼 | `packages/shuang` | 晴双拼网页练习工具，主程序点击晴双拼时按需下载并打开 `index.html`。 |
+| `ziti-basic` | 字提基础包 | `Resources/字提` | 字提方案码表，例如小鹤、虎码、五笔等。未安装时主程序会强制关闭字提相关开关。 |
+| `citi-basic` | 词提基础包 | `Resources/词提` | 词提方案词库，例如小鹤、虎码、蓝宝石等。未安装时主程序会强制关闭词提相关开关。 |
+
+## 发布产物
+
+每次发布会生成：
+
+| 文件 | 用途 |
+| --- | --- |
+| `manifest.json` | 主程序读取的最新资源清单。 |
+| `manifest-<版本>.json` | 对应版本的资源清单快照。 |
+| `<包 ID>-<版本>.zip` | 单个资源包压缩包。 |
+| `version.txt` | 当前资源清单版本。 |
+
+版本号使用北京时间 `yyyyMMdd.HHmm`。资源清单里同时写入 Gitee 和 GitHub 下载地址，主程序下载时会按顺序 fallback。
+
+## 仓库维护
+
+- 资源仓库独立于主程序仓库，不作为子目录提交到主程序。
+- Gitee 单项目空间有限，release 工作流只保留最新 3 份 Gitee release。
+- 主程序包内不再携带这些可选资源，只保留启动和基础显示所需的内置资源。
